@@ -6,11 +6,14 @@ The app caters to individuals experiencing cancer and offers a forum functionali
 
 This project creates a Topic Classification Module for identifying topics being talked in a post message in the app.
 
-The project consists of 2 parts:
+The project consists of 3 parts:
 ## 1) Topic Modelling :
 Uses Latent Dirichlet Allocation (LDA) Algorithm (clustering) to detect broad topics in the in the text corpus. 
 
-## 2) Topic Classification using Machine Learning
+## 2) Dataset Creation :
+Labelling of Data Corpus to create a dataset for supervised Machine Learning. 
+
+## 3) Topic Classification using Machine Learning
 Uses Machine Learning (Linear SVC) to implement topic classification on the topics detected in part 1. 
 
 ### Instructions to run.
