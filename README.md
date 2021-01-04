@@ -5,6 +5,7 @@ This project was done under the not-for-profit wing of [Nest Global Solutions](h
 The app caters to individuals experiencing cancer and offers a forum functionality among other features. 
 
 This project creates a Topic Classification Module for identifying topics being talked in a post message in the app.
+This would be helpful for friend recommendation (profile matching) within the app. 
 
 The project consists of 3 parts:
 ## 1) Topic Modelling :
