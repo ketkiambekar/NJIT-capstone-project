@@ -1,7 +1,7 @@
 # NJIT-Capstone-Project
 This is my Capstone Project @ NJIT
 
-This project was done under the not-for-profit wing of [Nest Global Solutions](https://nestsolutions.com/) called [Eve's Appetite for Cure](https://evesappetiteforcure.org/) for their app "Need to Speak". 
+This project was done under the not-for-profit organization called [Eve's Appetite for Cure](https://evesappetiteforcure.org/) for their app "Need to Speak". 
 The app caters to individuals experiencing cancer and offers a forum functionality among other features. 
 
 This project aims at creating a Topic Classification Module for identifying topics being talked in a post message in the app.
