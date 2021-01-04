@@ -22,3 +22,5 @@ Uses Machine Learning (Linear SVC) to implement topic classification on the topi
 3) Supply text message in the UI. 
 
 For any questions regarding the project, feel free to reach out to me (Contact info on my [Github Profile](https://github.com/ketkiambekar) )
+
+Copyright 2021. All rights reserved. 
