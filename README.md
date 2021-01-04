@@ -8,10 +8,10 @@ This project creates a Topic Classification Module for identifying topics being 
 
 The project consists of 2 parts:
 ## 1) Topic Modelling :
-We use Latent Dirichlet Allocation (LDA) Algorithm (clustering) to detect broad topics in the in the text corpus. 
+Uses Latent Dirichlet Allocation (LDA) Algorithm (clustering) to detect broad topics in the in the text corpus. 
 
 ## 2) Topic Classification using Machine Learning
-We then use Machine Learning to implement topic classification on the topics detected in part 1. 
+Uses Machine Learning to implement topic classification on the topics detected in part 1. 
 
 ### Instructions to run.
 1) Clone the repository
