@@ -19,7 +19,7 @@ Uses Machine Learning (Linear SVC) to implement topic classification on the topi
 
 ### Instructions to run.
 
-#### Prerequisites : None 
+#### Software Prerequisites : None 
 
 1) Open the notebook in Colab "/Topic Classication/EAFC_predict.ipynb" by clicking on the 'Open in Colab' badge. 
 2) Upload the files "/bin/EAFC_TC.joblib" and "/bin/EAFC_vectorizer.joblib" and "/Data/stopwords.txt" to the files section in the left pane. 
