@@ -20,7 +20,7 @@ Uses Machine Learning (Linear SVC) to implement topic classification on the topi
 ### Instructions to run.
 1) Clone the repository
 2) Run the python file /API/app.py 
-3) Supply text message in the UI. 
+3) Supply text message in the UI and hit submit. 
 
 For any questions regarding the project, feel free to reach out to me (Contact info on my [Github Profile](https://github.com/ketkiambekar) )
 
