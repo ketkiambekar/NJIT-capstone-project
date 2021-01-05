@@ -8,13 +8,13 @@ This project aims at creating a Topic Classification Module for identifying topi
 This would be helpful for friend recommendation (profile matching) within the app. 
 
 The project consists of 3 parts:
-## 1) Topic Modelling :
+### 1) Topic Modelling :
 Uses Latent Dirichlet Allocation (LDA) Algorithm (clustering) to detect broad topics in the in the text corpus. 
 
-## 2) Dataset Creation :
+### 2) Dataset Creation :
 Labelling of Data Corpus to create a dataset for supervised Machine Learning. 
 
-## 3) Topic Classification using Machine Learning
+### 3) Topic Classification using Machine Learning
 Uses Machine Learning (Linear SVC) to implement topic classification on the topics detected in part 1. 
 
 ### Instructions to run.
