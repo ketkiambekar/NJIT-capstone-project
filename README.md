@@ -18,9 +18,11 @@ Labelling of Data Corpus to create a dataset for supervised Machine Learning.
 Uses Machine Learning (Linear SVC) to implement topic classification on the topics detected in part 1. 
 
 ### Instructions to run.
-1) Clone the repository
-2) Run the python file /API/app.py 
-3) Supply text message in the UI and hit submit. 
+1) Open the notebook in Colab "/Topic Classication/EAFC_predict.ipynb" by clicking on the 'Open in Colab' badge. 
+2) Upload the files "/bin/EAFC_TC.joblib" and "/bin/EAFC_vectorizer.joblib" and "/Data/stopwords.txt" to the files section in the left pane. 
+3) Change the text in first cell as needed. 
+4) Click Runtime >> Run all. 
+5) The Class should be predicted in the very last cell. 
 
 For any questions regarding the project, feel free to reach out to me (Contact info on my [Github Profile](https://github.com/ketkiambekar) )
 
