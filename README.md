@@ -22,6 +22,13 @@ Labelling of Data Corpus to create a dataset for supervised Machine Learning.
 ### 3) Topic Classification using Machine Learning
 Uses Machine Learning (Linear SVC) to implement topic classification on the topics detected in part 1. 
 
+## Environment and tools
+
+1. Jupyter Notebook
+2. Pandas
+3. Matplotlib
+4. Scikit-learn
+
 ### Instructions to run.
 
 #### Software Prerequisites : None 
