@@ -7,7 +7,12 @@ The app caters to individuals experiencing cancer and offers a forum functionali
 This project aims at creating a Topic Classification Module for identifying topics being talked in a post message in the app.
 This would be helpful for friend recommendation (profile matching) within the app. 
 
+#### What is topic classification?
+In our context, it is the identification of the topics of conversation in the cancer forum and classifying user posts into these topics. 
+Generally, topic classification refers to identifying broad topics in any text. 
+
 The project consists of 3 parts:
+
 ### 1) Topic Modelling :
 Uses Latent Dirichlet Allocation (LDA) Algorithm (clustering) to detect broad topics in the in the text corpus. 
 
