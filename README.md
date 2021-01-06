@@ -8,8 +8,8 @@ This project aims at creating a Topic Classification Module for identifying topi
 This would be helpful for friend recommendation (profile matching) within the app. 
 
 ### What does topic classification mean?
-In our context, it is the identification of the topics of conversation in the cancer forum and classifying user posts into these topics. 
-Generally, topic classification refers to identifying broad topics in any text. 
+Generally, topic classification refers to identifying broad topics in any text. In our context, it is the identification of the topics of conversation in the cancer forum and classifying user posts into these topics. 
+
 
 The project consists of 3 parts:
 
