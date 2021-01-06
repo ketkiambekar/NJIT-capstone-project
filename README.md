@@ -7,7 +7,7 @@ The app caters to individuals experiencing cancer and offers a forum functionali
 This project aims at creating a Topic Classification Module for identifying topics being talked in a post message in the app.
 This would be helpful for friend recommendation (profile matching) within the app. 
 
-#### What is topic classification?
+### What does topic classification mean?
 In our context, it is the identification of the topics of conversation in the cancer forum and classifying user posts into these topics. 
 Generally, topic classification refers to identifying broad topics in any text. 
 
@@ -29,7 +29,7 @@ Uses Machine Learning (Linear SVC) to implement topic classification on the topi
 3. Matplotlib
 4. Scikit-learn
 
-### Instructions to run.
+## Instructions to run.
 
 #### Software Prerequisites : None 
 
