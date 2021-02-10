@@ -1,14 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>EAFC Topic Classifier UI</title>
-</head>
-<body>
-<h2>Please input a message:</h2>
-<form action="/predict" method="post">
-<textarea id="msg" name="msg" rows="4" cols="50">
-</textarea>
-<input type="submit" value="submit">
-</form>
-</body>
-</html>
+
+{% extends "layout.html"%}
+{% block body %}
+  <div class="form-panel one form">
+        <div class="form-header">
+            <h1>EAFC Topic Classification</h1>
+        </div>
+
+        <div class="form-content">
+            <form action="/predict" method="post">
+                <div class="form-group">
+                <label for="username">Please input a message:</label>
+                <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                <button type="submit">Find Topic</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% if message %}
+<div id="result" class="form-header">
+ <center><h3> {{message}} </h3> </center>
+</div>
+{% endif %}
+
+{% endblock %} 
+

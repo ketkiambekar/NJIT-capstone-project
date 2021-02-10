@@ -9,6 +9,7 @@ from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords, wordnet
 import string
 import contractions
+from sklearn.feature_extraction.text import TfidfVectorizer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
@@ -109,7 +110,7 @@ def Lemmatize(text):
     tokens= word_tokenize(text)
 
     #Remove StopWords
-    tokens = remove_stopwords(tokens, 'stopwords.txt')
+    tokens = remove_stopwords(tokens, 'aux/stopwords.txt')
     #print(tokens)
 
     #Tagging Parts of Speech in the tokenized 
