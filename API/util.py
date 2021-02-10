@@ -1,7 +1,9 @@
 from sklearn.svm import LinearSVC
 import joblib
 import nltk
-from nltk.tokenize import word_tokenize
+import os
+#print(os.chdir("/Users/ketkiambekar/Documents/NJIT/EAFC/NJIT-Capstone-Project/API"))
+#from nltk.tokenize import word_tokenize
 from nltk import pos_tag
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
