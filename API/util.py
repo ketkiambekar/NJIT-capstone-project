@@ -110,7 +110,7 @@ def Lemmatize(text):
     tokens= word_tokenize(text)
 
     #Remove StopWords
-    tokens = remove_stopwords(tokens, 'aux/stopwords.txt')
+    tokens = remove_stopwords(tokens, 'model/stopwords.txt')
     #print(tokens)
 
     #Tagging Parts of Speech in the tokenized 
