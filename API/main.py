@@ -33,8 +33,8 @@ def index():
 def predict():
     try: 
         text =  request.form.get("msg")
-        text =  util.Lemmatize(text)
-        text_vectorized = util.Vectorize(text, vectorizer)
+        text =  Lemmatize(text)
+        text_vectorized = Vectorize(text, vectorizer)
         y_pred=model.predict(text_vectorized)
 
         if y_pred[0]==0:
