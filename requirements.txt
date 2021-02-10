@@ -15,4 +15,3 @@ tqdm==4.56.1
 Werkzeug==1.0.1
 pyahocorasick==1.4.0
 contractions==0.0.45
-gunicorn==20.0.4
