@@ -1,8 +1,7 @@
-
 from flask import Flask, render_template, jsonify,request
 import joblib
 import os 
-print(os.chdir("/Users/ketkiambekar/Documents/NJIT/EAFC/NJIT-Capstone-Project/API"))
+#print(os.chdir("/Users/ketkiambekar/Documents/NJIT/EAFC/NJIT-Capstone-Project/API"))
 import util
 #from flask import Flask, request, jsonify
 
@@ -22,7 +21,6 @@ def predict():
         text =  util.Lemmatize(text)
         text_vectorized = util.Vectorize(text, vectorizer)
         y_pred=model.predict(text_vectorized)
- 
 
         if y_pred[0]==0:
             result = "Class 0: Newly Discovered"
