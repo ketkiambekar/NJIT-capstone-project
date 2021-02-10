@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify,request
 import joblib
 import os 
 #print(os.chdir("/Users/ketkiambekar/Documents/NJIT/EAFC/NJIT-Capstone-Project/API"))
-import util
+#import util
 import nltk
 from sklearn.svm import LinearSVC
 from nltk.tokenize import word_tokenize
