@@ -31,7 +31,13 @@ Uses Machine Learning (Linear SVC) to implement topic classification on the topi
 
 ## Instructions to run.
 
-#### Software Prerequisites : None 
+#### Software Prerequisites : python3 
+1) Clone the repository 
+2) Install dependencies from requirements.txt
+3) Navigate to and run '/API/main.py'
+4) The app will be accessible on the link obtained in output of of main.py
+
+Alternatively, the funcationality can experienced on Google colab in absence of a local python setup:
 
 1) Open the notebook in Colab "/Topic Classication/EAFC_predict.ipynb" by clicking on the 'Open in Colab' badge. 
 2) Upload the files "/bin/EAFC_TC.joblib" and "/bin/EAFC_vectorizer.joblib" and "/Data/stopwords.txt" to the files section in the left pane. 
